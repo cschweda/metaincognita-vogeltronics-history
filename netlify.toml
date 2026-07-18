@@ -1,0 +1,3 @@
+# amtoy.netlify.app — static single-file site, no build step
+[build]
+  publish = "."
