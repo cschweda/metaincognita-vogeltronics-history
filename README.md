@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/amtoy-logo.svg" alt="AmToy — Games That Think!" width="680">
+</p>
+
 # AmToy — The Whole Story
 
 **Live site:** [amtoy.netlify.app](https://amtoy.netlify.app)
@@ -28,7 +32,7 @@ The page covers, era by era:
 
 ## Tech
 
-There is no build step and there are no dependencies. The entire site — markup, styles, and all 18 images (embedded as data URIs) — is one self-contained `index.html` (~2 MB).
+There is no build step and there are no dependencies. The entire site — markup, styles, and all 18 images (embedded as data URIs) — is one self-contained `index.html` (~2 MB). The `assets/` folder holds only the README logo artwork (`amtoy-logo.svg` and its PNG render), drawn as pure vector paths so it needs no fonts.
 
 To view locally, open `index.html` in a browser, or serve the folder:
 
