@@ -97,6 +97,10 @@
   .sndbtn:hover{border-color:#4a3030}
   .sndbtn.playing{border-color:var(--blip);box-shadow:0 0 10px rgba(255,90,58,.28)}
   .sndbtn.playing i{text-shadow:0 0 8px var(--blip)}
+  .sndnote{margin:12px 4px 8px;font-size:12.5px;line-height:1.5;color:var(--muted);font-style:italic;text-align:center}
+  .cardlinks{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margin-top:10px;font-family:var(--sans);font-size:12.5px}
+  .cardlinks a{color:var(--gold);text-decoration:none;border-bottom:1px dotted rgba(230,178,62,.5)}
+  .cardlinks a:hover{border-bottom-style:solid}
 </style>
 </head>
 <body>
@@ -373,6 +377,11 @@
           <button type="button" class="sndbtn" data-snd="rovacon"><i>&#9654;</i>&ldquo;Rovacon.&rdquo;<span class="ctx">introducing itself</span></button>
           <button type="button" class="sndbtn" data-snd="fault"><i>&#9654;</i>&ldquo;System fault.&rdquo;<span class="ctx">a route gone wrong</span></button>
           <button type="button" class="sndbtn" data-snd="ouch"><i>&#9654;</i>&ldquo;Ouch. That hurts.&rdquo;<span class="ctx">falling down the stairs</span></button>
+          <p class="sndnote">The history is a joke. The voice is not &mdash; it&rsquo;s real formant-synthesis code, none of which was funny to write.</p>
+          <div class="cardlinks">
+            <a href="https://rovacon-voice.netlify.app/" target="_blank" rel="noopener">hear the synth live</a>
+            <a href="https://github.com/cschweda/rovacon-voice" target="_blank" rel="noopener">read the VoxAm source</a>
+          </div>
         </div>
       </div>
       <div class="gamecard">
