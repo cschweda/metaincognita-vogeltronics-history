@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Rovacon sound previews in the "Play the Games" grid: the three actual in-game VoxAm voice clips — "Rovacon." (introducing itself), "Ouch. That hurts." (on finding the stairs), and "System fault." (a route gone wrong) — playable from the Rovacon card. The clips are embedded as `data:` URIs, so the site remains a single self-contained file; the source WAVs live in `assets/`.
+- Rovacon sound previews in the "Play the Games" grid: the three actual in-game VoxAm voice clips — "Rovacon." (introducing itself), "System fault." (a route gone wrong), and "Ouch. That hurts." (falling down the stairs) — playable from the Rovacon card. The clips are embedded as `data:` URIs, so the site remains a single self-contained file; the source WAVs live in `assets/`.
 
 ### Changed
 
