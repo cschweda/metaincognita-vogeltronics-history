@@ -14,7 +14,7 @@ This project exists to give a family of retro-toy homage projects a shared backs
 
 Game *mechanics* are not copyrightable; the invented AmToy branding stands in for the real-world brands the projects deliberately avoid.
 
-This history is the background lore for the [MetaIncognita](https://metaincognita.com) default page, which hosts playable recreations of AmToy's fictional catalog — including **Rovacon** (the programmable tank) and **Gridiron** / **Gridiron II** (the LED football handhelds).
+This history is the background lore for the [MetaIncognita](https://metaincognita.com) default page, which hosts playable recreations of AmToy's fictional catalog — including **Rovacon** (the programmable tank) and **Gridiron** / **Gridiron II** (the LED football handhelds). The games themselves are still being rebuilt, but Rovacon's voice is done: the history's games grid previews the three actual in-game voice clips, generated with [rovacon-voice](https://github.com/cschweda/rovacon-voice).
 
 ## The story
 
@@ -32,7 +32,7 @@ The page covers, era by era:
 
 ## Tech
 
-There is no build step and there are no dependencies. The entire site — markup, styles, and all 18 images (embedded as data URIs) — is one self-contained `index.html` (~2 MB). The `assets/` folder holds only the README logo artwork (`amtoy-logo.svg` and its PNG render), drawn as pure vector paths so it needs no fonts.
+There is no build step and there are no dependencies. The entire site — markup, styles, all 18 images, and the three Rovacon voice clips (all embedded as data URIs) — is one self-contained `index.html` (~2 MB). The `assets/` folder holds the README logo artwork (`amtoy-logo.svg` and its PNG render), drawn as pure vector paths so it needs no fonts, plus the source WAVs for the embedded Rovacon clips.
 
 To view locally, open `index.html` in a browser, or serve the folder:
 

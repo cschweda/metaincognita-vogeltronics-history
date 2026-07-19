@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2026-07-19
+
+### Added
+
+- Rovacon sound previews in the "Play the Games" grid: the three actual in-game VoxAm voice clips — "Rovacon." (introducing itself), "Ouch. That hurts." (on finding the stairs), and "System fault." (a route gone wrong) — playable from the Rovacon card. The clips are embedded as `data:` URIs, so the site remains a single self-contained file; the source WAVs live in `assets/`.
+
+### Changed
+
+- The games grid is now a two-across flex layout, giving each card room for its summary and the sound buttons.
+- The Rovacon card is marked COMING SOON (like Gridiron) until the game itself ships.
+- Both game-card summaries now wink at the real 1977/1979 handhelds they homage — without naming the brands.
+- Tightened the history since 1.1.0: removed the Sorcerer entirely, gave the hero a new founder quote, rewrote the Cordless Detour around the trickle charger, and trimmed the Colossus cord fiasco down to the stuck cartridge.
+
 ## [1.1.0] - 2026-07-18
 
 ### Added
@@ -20,5 +33,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fictional-parody disclaimer in the page footer.
 - Repository scaffolding: README, MIT license, `.gitignore`, `netlify.toml`, and this changelog.
 
+[1.2.0]: https://github.com/cschweda/amtoy-history/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/cschweda/amtoy-history/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/cschweda/amtoy-history/releases/tag/v1.0.0
