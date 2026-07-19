@@ -32,7 +32,7 @@ The page covers, era by era:
 
 ## Tech
 
-There is no build step and there are no dependencies. The entire site — markup, styles, all 18 images, and the three Rovacon voice clips (all embedded as data URIs) — is one self-contained `index.html` (~2 MB). The `assets/` folder holds the README logo artwork (`vogeltronics-logo.svg` and its PNG render), drawn as pure vector paths so it needs no fonts, plus the source WAVs for the embedded Rovacon clips.
+There is no build step and there are no dependencies. The entire site — markup, styles, all 18 images, and the three Rovacon voice clips (all embedded as data URIs) — is one self-contained `index.html` (~2 MB). The `assets/` folder holds the README logo artwork (`vogeltronics-logo.svg` and its PNG render), drawn as pure vector paths so it needs no fonts, the SVG source for the 1961 Vogel Novelty badge (`vogel-novelty-badge.svg`), and the source WAVs for the embedded Rovacon clips. `tools/gen_badge.py` regenerates the badge SVG and re-embeds its PNG into `index.html` (needs `rsvg-convert` and the DejaVu Sans font); it is never required to view or deploy the site.
 
 To view locally, open `index.html` in a browser, or serve the folder:
 

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1090" height="580" viewBox="0 0 1090 580">
+  <defs>
+    <radialGradient id="oval" cx=".5" cy=".42" r=".75">
+      <stop offset="0" stop-color="#f08a3d"/>
+      <stop offset=".6" stop-color="#ec7433"/>
+      <stop offset="1" stop-color="#e8622a"/>
+    </radialGradient>
+    <linearGradient id="ribbon" x1="0" y1="448" x2="0" y2="527" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eeba43"/>
+      <stop offset="1" stop-color="#dfa028"/>
+    </linearGradient>
+  </defs>
+
+  <!-- oval badge -->
+  <ellipse cx="545" cy="240" rx="436" ry="195" fill="#f4efe6"/>
+  <ellipse cx="545" cy="240" rx="406" ry="176" fill="url(#oval)"/>
+  <ellipse cx="545" cy="240" rx="372" ry="150" fill="none" stroke="#f4efe6" stroke-width="3" opacity=".8"/>
+
+  <!-- wordmark -->
+  <text x="545" y="269" text-anchor="middle" font-family="'DejaVu Sans',Verdana,sans-serif" font-weight="bold" font-size="86" fill="#f4efe6">Vogel Novelty</text>
+
+  <!-- daisies -->
+  <g id="daisyL" transform="translate(109 240)">
+    <g fill="#f4efe6">
+      <ellipse rx="16" ry="30" transform="rotate(0) translate(0 -30)"/>
+      <ellipse rx="16" ry="30" transform="rotate(72) translate(0 -30)"/>
+      <ellipse rx="16" ry="30" transform="rotate(144) translate(0 -30)"/>
+      <ellipse rx="16" ry="30" transform="rotate(216) translate(0 -30)"/>
+      <ellipse rx="16" ry="30" transform="rotate(288) translate(0 -30)"/>
+    </g>
+    <circle r="15" fill="#e0a82e"/>
+  </g>
+  <use href="#daisyL" x="872"/>
+
+  <!-- est line -->
+  <text x="545" y="357" text-anchor="middle" font-family="'DejaVu Sans',Verdana,sans-serif" font-weight="bold" font-size="24" letter-spacing="8" fill="#f4efe6">&#9733; EST. 1961 &#9733;</text>
+
+  <!-- ribbon banner -->
+  <polygon points="185,452 133,444 147,486 133,528 185,520" fill="#d9a125"/>
+  <polygon points="133,444 185,452 185,444" fill="#8f5c10"/>
+  <polygon points="905,452 957,444 943,486 957,528 905,520" fill="#d9a125"/>
+  <polygon points="957,444 905,452 905,444" fill="#8f5c10"/>
+  <rect x="175" y="448" width="740" height="79" rx="6" fill="url(#ribbon)"/>
+  <text x="545" y="502" text-anchor="middle" font-family="'DejaVu Sans',Verdana,sans-serif" font-weight="bold" font-size="42" letter-spacing="6" fill="#7b3d0a">WHOLESOME FAMILY FUN</text>
+</svg>
