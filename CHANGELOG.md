@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2026-07-19
+
+### Changed
+
+- **Complete rebrand.** The fictional company's previous name turned out to belong to a real-world toy brand, so it has been retired everywhere. The company is now **VogelTronics**, founded in 1961 as the **Vogel Novelty Company** and officially renamed at the height of the 1977 Electronic Reinvention — a retcon that now *is* the story: the division Diane Vogel and Ray Kessler stood up gave the whole company its name.
+- Every era of the narrative now uses the era-correct name: Vogel Novelty for the founding, the Heritage Hits, and the Lean Years (Sergeant Steele, Meadow, Derby); VogelTronics from 1977 on. The Cordless Detour's name-change joke is now about a *second* rename ("VogelTech," "Vogel Home") four years after the first.
+- The voice chip is now **VogelVox™** (formerly a name derived from the old company name), in the marquee, the Rovacon story, the builders' note, and the game cards.
+- All artwork re-lettered: the masthead logo, the 1961 Vogel Novelty heritage badge, and all thirteen box arts (era-correct — Vogel Novelty on the 1966–1974 boxes, VogelTronics from 1977 on), re-set in the original typeface and composited back into the embedded illustrations.
+- README logo replaced: `assets/vogeltronics-logo.svg` (plus PNG render) — same plaque design, LED-apex **V**, cream "Vogel" / red "Tronics" wordmark, drawn as pure vector paths with no font dependencies.
+- Live site moved to [vogeltronics.metaincognita.com](https://vogeltronics.metaincognita.com).
+
 ## [1.3.0] - 2026-07-19
 
 ### Added
@@ -16,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Rovacon sound previews in the "Play the Games" grid: the three actual in-game VoxAm voice clips — "Rovacon." (introducing itself), "System fault." (a route gone wrong), and "Ouch. That hurts." (falling down the stairs) — playable from the Rovacon card. The clips are embedded as `data:` URIs, so the site remains a single self-contained file; the source WAVs live in `assets/`.
+- Rovacon sound previews in the "Play the Games" grid: the three actual in-game VogelVox voice clips — "Rovacon." (introducing itself), "System fault." (a route gone wrong), and "Ouch. That hurts." (falling down the stairs) — playable from the Rovacon card. The clips are embedded as `data:` URIs, so the site remains a single self-contained file; the source WAVs live in `assets/`.
 
 ### Changed
 
@@ -29,18 +40,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- AmToy logo (`assets/amtoy-logo.svg`, plus a 2× PNG render at `assets/amtoy-logo.png`): a dark late-70s product-badge lockup of the masthead brand — LED-apex A, cream/red AMTOY wordmark, gold "Games That Think!" tagline. The wordmark is drawn as pure vector paths, so it renders identically everywhere with no font dependencies. Now heads the README.
+- Company logo in `assets/` (SVG plus a 2× PNG render): a dark late-70s product-badge lockup of the masthead brand with an LED-apex letter and a cream/red wordmark, gold "Games That Think!" tagline. The wordmark is drawn as pure vector paths, so it renders identically everywhere with no font dependencies. Now heads the README.
 
 ## [1.0.0] - 2026-07-18
 
 ### Added
 
-- Initial release: the complete single-page AmToy corporate history (1961–1983), from the founding in Elk Grove Village through the Heritage Hits, the Electronic Reinvention, Rovacon, the Gridiron handhelds, the Grandmaster Affair, and the Crash.
+- Initial release: the complete single-page corporate history of the fictional toymaker (1961–1983), from the founding in Elk Grove Village through the Heritage Hits, the Electronic Reinvention, Rovacon, the Gridiron handhelds, the Grandmaster Affair, and the Crash.
 - All 18 illustrations embedded as data URIs — the site is one self-contained `index.html` with no build step.
 - Fictional-parody disclaimer in the page footer.
 - Repository scaffolding: README, MIT license, `.gitignore`, `netlify.toml`, and this changelog.
 
-[1.3.0]: https://github.com/cschweda/amtoy-history/compare/v1.2.0...v1.3.0
-[1.2.0]: https://github.com/cschweda/amtoy-history/compare/v1.1.0...v1.2.0
-[1.1.0]: https://github.com/cschweda/amtoy-history/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/cschweda/amtoy-history/releases/tag/v1.0.0
+[2.0.0]: https://github.com/cschweda/vogeltronics-history/compare/v1.3.0...v2.0.0
+[1.3.0]: https://github.com/cschweda/vogeltronics-history/compare/v1.2.0...v1.3.0
+[1.2.0]: https://github.com/cschweda/vogeltronics-history/compare/v1.1.0...v1.2.0
+[1.1.0]: https://github.com/cschweda/vogeltronics-history/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/cschweda/vogeltronics-history/releases/tag/v1.0.0
