@@ -14,7 +14,7 @@ This project exists to give a family of retro-toy homage projects a shared backs
 
 Game *mechanics* are not copyrightable; the invented VogelTronics branding stands in for the real-world brands the projects deliberately avoid.
 
-This history is the background lore for the [MetaIncognita](https://metaincognita.com) default page, which hosts playable recreations of VogelTronics' fictional catalog — including **Rovacon** (the programmable tank) and **Gridiron** / **Gridiron II** (the LED football handhelds). The games themselves are still being rebuilt, but Rovacon's voice is done: the history's games grid previews the three actual in-game voice clips, generated with [rovacon-voice](https://github.com/cschweda/rovacon-voice).
+This history is the background lore for the [MetaIncognita](https://metaincognita.com) default page, which hosts playable recreations of VogelTronics' fictional catalog — including **Rovacon** (the programmable tank) and **Gridiron** / **Gridiron II** (the LED football handhelds). The games themselves are still being rebuilt, but Rovacon's voice is done: the history's games grid previews the three actual in-game voice clips, generated with [vogel-vox](https://github.com/cschweda/vogeltronics-vogel-vox).
 
 ## The story
 
